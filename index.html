@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Bài 1 -->
+    <div style="width: 700px" class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-header">Bài tập 1: Tính ngày tháng năm</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label>ngày</label>
+                <input id="ngay" type="number" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label>Tháng</label>
+                <input id="month" type="number" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label>năm</label>
+                <input id="year" type="number" class="form-control" />
+              </div>
+              <button class="btn btn-success" id="ngayHomTruoc">
+                ngày hôm trước
+              </button>
+              <button class="btn btn-success" id="ngayHomSau">
+                ngày hôm sau
+              </button>
+            </div>
+            <div class="card-footer text-muted" id="ketQua4"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <!-- Bài 2 -->
+    <div style="width: 700px" class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-header">Bài tập 2: Tính ngày</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label>Tháng</label>
+                <input id="thang" type="number" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label>năm</label>
+                <input id="nam" type="number" class="form-control" />
+              </div>
+              <button class="btn btn-success" id="kiemTradate">
+                Kiểm tra số ngày
+              </button>
+            </div>
+            <div class="card-footer text-muted" id="ketQua2"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <!-- Bài 3 -->
+    <div style="width: 700px" class="container">
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <div class="card-header">Bài tập 3: Đọc số</div>
+            <div class="card-body">
+              <div class="form-group">
+                <label>Number</label>
+                <input id="number" type="text" class="form-control" />
+              </div>
+              <button class="btn btn-success" id="kiemTraSo">
+                Kiểm tra số
+              </button>
+            </div>
+            <div class="card-footer text-muted" id="ketQua3"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bài tập 4 -->
+    <hr />
+    <div style="width: 700px" class="container">
+      <div class="card">
+        <div class="card-header">Bài tập 4: Tìm sinh viên xa trường nhất</div>
+        <div class="card-body">
+          <div class="row">
+            <h3>Sinh viên 1</h3>
+            <div class="col-md-4">
+              <div class="form-group mt-2">
+                <input
+                  placeholder="Nhập tên"
+                  id="tenSV1"
+                  type="text"
+                  class="form-control"
+                />
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group mt-2">
+                <input
+                  placeholder="Nhập tòa độ x"
+                  id="x1"
+                  type="number"
+                  class="form-control"
+                />
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group mt-2">
+                <input
+                  placeholder="Nhập tòa độ y"
+                  id="y1"
+                  type="number"
+                  class="form-control"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <h3>Sinh viên 2</h3>
+            <div class="col-md-4">
+              <div class="form-group mt-2">
+                <input
+                  placeholder="Nhập tên"
+                  id="tenSV2"
+                  type="text"
+                  class="form-control"
+                />
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group mt-2">
+                <input
+                  placeholder="Tòa độ x"
+                  id="x2"
+                  type="number"
+                  class="form-control"
+                />
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group mt-2">
+                <input
+                  placeholder="Nhập tòa độ y"
+                  id="y2"
+                  type="number"
+                  class="form-control"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <h3>Sinh viên 3</h3>
+            <div class="col-md-4">
+              <div class="form-group mt-2">
+                <input
+                  placeholder="Nhập tên"
+                  id="tenSV3"
+                  type="text"
+                  class="form-control"
+                />
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group mt-2">
+                <input
+                  placeholder="Nhập tóa độ x"
+                  id="x3"
+                  type="number"
+                  class="form-control"
+                />
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group mt-2">
+                <input
+                  placeholder="Nhập tòa độ y"
+                  id="y3"
+                  type="number"
+                  class="form-control"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <h3>Trường học</h3>
+            <div class="col-md-4">
+              <div class="form-group mt-2">
+                <input
+                  placeholder="Nhập tòa độ x"
+                  id="x4"
+                  type="number"
+                  class="form-control"
+                />
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group mt-2">
+                <input
+                  placeholder="Nhập tòa độ y"
+                  id="y4"
+                  type="number"
+                  class="form-control"
+                />
+              </div>
+            </div>
+          </div>
+          <button class="btn btn-success mt-4" id="tinhSV">Tìm</button>
+        </div>
+        <div class="card-footer text-muted" id="thongBaoSV"></div>
+      </div>
+    </div>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
